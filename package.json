@@ -1,0 +1,19 @@
+{
+  "name": "punctuation-replace-loader",
+  "version": "1.0.0",
+  "description": "根据上下文汉语上下文中的英文字符转换成中文字符,英文上下文中的汉语字符转换成英文字符",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyongleihf2006/punctuation-replace-loader.git"
+  },
+  "author": "liyongleihf2006",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyongleihf2006/punctuation-replace-loader/issues"
+  },
+  "homepage": "https://github.com/liyongleihf2006/punctuation-replace-loader#readme"
+}
