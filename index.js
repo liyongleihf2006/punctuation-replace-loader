@@ -5,8 +5,8 @@ module.exports = function(source, map) {
   let newSource = source
   for (const options of zh_en) {
     const [zh,en] = options
-    const zhReg = new RegExp(`([\u4e00-\u9fa5])(${en})`,'g')
-    const enReg = new RegExp(`([^\u4e00-\u9fa5])(${zh})`,'g')
+    const zhReg = new RegExp(`([\u4e00-\u9fa5])(\\${en})`,'g')
+    const enReg = new RegExp(`([A-Za-z])(\\${zh})`,'g')
     newSource = newSource.replace(zhReg,function(match,$1){
       return $1 + zh
     })
